@@ -1,0 +1,110 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	background-image: url(../images/wall-sheet.jpg);
+}
+
+.top_bar_black {
+	width:100%;
+	height:80px;
+	background-color:#000000;
+}
+
+
+h1{
+	float: left;
+	font-family: "Lato", sans-serif;
+	padding: 0 20px 0 40px;
+	height: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px 0 0 0;
+  overflow: hidden;
+  background-color: none;
+}
+
+li {
+	float: right;
+  } /*распложение блоков по диагонали */
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 20px;
+  text-decoration: none;
+  margin-right: 20px;
+
+}
+
+li a:hover {
+  background-color: rgb(139, 139, 139);
+}
+
+.centr_container{
+	margin: auto;
+    float: center;
+	height: auto;
+    width: auto;
+	display: block;
+}
+
+.centr_container:hover {
+	border: 5px solid #ffee00;
+}
+
+td .girl_pic {
+	width: 110px; /* Ширина левой колонки с рисунком */
+    vertical-align: top
+}
+
+td img {
+	width:  50%;
+	height: auto;
+	margin-left: auto;
+    margin-right: auto;
+	display: block;
+}
+
+.text_info {
+	text-align: normal;
+	text-indent: 15px;
+	font-size: 25px;
+	width: 400px;
+	font-style: oblique;
+	color: #000000;
+}
+
+
+.bottom_bar_black {
+	width:100%;
+	height:110px;
+	background-color:#000000;
+	position: fixed; /* Фиксированное положение */
+    bottom: 0;
+} /* нижний бокс */
+
+.main_container {
+	height: 47px;
+	width: 850px; /* расположение текста от левого края*/
+	margin-left: 15%;
+	margin-right:auto;
+}
+
+.header_content_lowerline {
+	font-size:35px;
+	color:#FFFFFF;
+	width:400px;
+	font-style: italic;
+} /*заголовок подписи */
+
+.header_content_lowerboxcontent {
+	font-size:13px;
+	color:#CCCCCC;
+	width:450px;
+} /* текст подписи */
